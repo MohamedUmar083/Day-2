@@ -1,0 +1,29 @@
+1. Document Object: Navigating the DOM
+
+The Document object represents the HTML document loaded in the browser window.
+It serves as an interface to interact with the Document Object Model (DOM), 
+which is a hierarchical representation of the HTML structure. Through the Document object, 
+developers can access and manipulate elements within the DOM, such as modifying content, styling, or adding event listeners.
+
+2. Key Features of the Document Object:
+
+    Accessing elements
+    Manipulating content
+    Managing events
+
+3. Window Object: The Browser's Global Context
+
+The Window object represents the browser window or frame that contains the DOM document. 
+It serves as the global context for JavaScript code running within the browser environment. 
+Additionally, the Window object provides access to various browser-related functionalities and properties, such as controlling navigation, managing timers, and handling the browser's history.
+
+4. Key Features of the Window Object:
+
+    Navigation control 
+    Timing functions
+    Browser properties
+
+5. Relationship Between Document and Window Objects
+
+While the Document object represents the content of a web page, the Window object encapsulates the entire browser environment, including the Document object.
+In other words, the Window object acts as the global scope for JavaScript code, encompassing both the Document and other browser-related functionalities.
